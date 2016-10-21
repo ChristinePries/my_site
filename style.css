@@ -3,11 +3,12 @@ body{
 }
 
 h1{
-
+	display: flex;
+	max-width: 900px
 }
 
 .center{
-
+	text-align: center;
 }
 
 .box{
@@ -27,9 +28,17 @@ h1{
 
 }
 
-.clear{
-	content: '.';
-	visibility: none;
-	height: 0;
-	clear: both;
+.container{
+	width: 800px;
+	/*no height? The height should be determined by the content*/
+	background-color: #B2675E;
+	margin:0 auto;
+}
+
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height:0;
+	clear:both;
 }
