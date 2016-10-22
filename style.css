@@ -1,44 +1,49 @@
 body{
-	background-color: grey;
-}
-
-h1{
-	display: flex;
-	max-width: 900px
-}
-
-.center{
-	text-align: center;
-}
-
-.box{
-	width: 200px;
-	height: 200px;
-	background-color: blue;
-	color: white;
-	font-size: 20px;
-
-	float: left;
-	margin: 6px;
-}
-
-.wrapper{
-	width: 850px;
-	background-color: black;
-
+  display: block;
+  display: flex;
+  margin: 8px;
+  background: linear-gradient(to bottom right, #23c443, rgba(0,0,0,0));
 }
 
 .container{
-	width: 800px;
-	/*no height? The height should be determined by the content*/
-	background-color: #B2675E;
-	margin:0 auto;
+  width: 800px;
+  height: 20px;
+  margin: 0 auto;
+  
 }
 
-.clearfix:after{
-	content: ".";
-	visibility: hidden;
-	display: block;
-	height:0;
-	clear:both;
+header{
+  height: 60px;
+  background-color: #b2675E;
+
+}
+aside{
+  background-color: #F55536;
+  float: left;
+  width: 300px;
+  height: 600px;
+}
+
+article{
+  float: right;
+  width: 500px;
+  background-color: blue;
+  height: 600px;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+  background-color: #23c443;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+
+  float: left;
+  margin: 6px;
 }
