@@ -6,6 +6,7 @@ body{
 }
 
 .container{
+  color: black;
   width: 800px;
   height: 20px;
   margin: 0 auto;
@@ -15,13 +16,14 @@ body{
 header{
   height: 60px;
   background-color: #23c443;
-
 }
+
 aside{
   background-color: #23c443;
   float: left;
   width: 300px;
   height: 600px;
+  text-align: center;
 }
 
 article{
@@ -54,6 +56,24 @@ footer{
   opacity: 1.0;
 }
 
-#me{
-  border-radius: 50%
+a:link, a:visited{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+a:active{
+  color: red;
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
